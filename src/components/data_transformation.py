@@ -12,6 +12,8 @@ from sklearn.preprocessing import OneHotEncoder,StandardScaler
 from src.utils import save_object
 from src.exception import CustomException
 from src.logger import logging
+from src.components.model_trainer import ModelTrainerConfig
+from src.components.model_trainer import ModelTrainer
 
 @dataclass
 class DataTransformationConfig:
